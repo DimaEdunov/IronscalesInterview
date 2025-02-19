@@ -5,7 +5,20 @@ This project demonstrates a testing framework that integrates UI and API tests u
 ## Project Structure
 
 The repository is organized as follows:
-IronscalesInterview/ ├── skeleton/ │ ├── src/ │ │ ├── main/ │ │ │ └── java/ │ │ │ └── com/ │ │ │ └── example/ │ │ │ └── ui/ │ │ │ └── TestBase.java │ │ └── test/ │ │ └── java/ │ │ └── com/ │ │ └── example/ │ │ ├── ui/ │ │ │ └── UITest.java │ │ └── api/ │ │ └── APITest.java │ ├── pom.xml │ └── testng.xml
+IronscalesInterview/
+├── pom.xml
+├── README.md
+└── src
+    └── test
+        └── java
+            └── com
+                └── example
+                    ├── api
+                    │   └── APITests.java
+                    └── ui
+                        ├── TestBase.java
+                        └── UITests.java
+
 
 
 - `src/main/java/com/example/ui/TestBase.java`: Contains the base setup and teardown methods for UI tests.
